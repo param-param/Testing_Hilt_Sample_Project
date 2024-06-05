@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/iv_Poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:siBorderColor="#74FFFFFF"
+            app:siBorderWidth="1dp"
+            app:siRadius="12dp" />
+
+        <TextView
+            android:id="@+id/tv_Title"
+            android:layout_width="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/gotham_rounded_medium"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_below="@id/iv_Poster"/>
+
+    </RelativeLayout>
+
+
+</layout>
+
